@@ -1,0 +1,132 @@
+.Homepage{
+    /* border:1px solid red; */
+
+    padding: 1rem;
+
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.billing-address{
+    border :1px solid gray;
+    background-color: rgb(252, 246, 238);
+    color: black;
+    padding: 0.5rem;
+    margin-bottom:1rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.shipping-address{
+    border :1px solid gray;
+    background-color: rgba(252, 246, 238);
+    color: black;
+    padding: 0.5rem;
+    margin-bottom:1rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.addnewaddress{
+    border :1px solid gray;
+    background-color: rgba(252, 246, 238);
+    color: black;
+    padding: 0.5rem;
+    margin-bottom:1rem;
+width: 48%;
+}
+.payment-method h6{
+    background-color: antiquewhite;
+    padding:0.2rem;
+    padding-left: 0.8rem;
+}
+.radiobtn{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+}
+.radiobtnpara{
+    /* border: 1px solid red; */
+    font-weight: 500;
+    /* display: flex; */
+    /* justify-content: start; */
+padding: 0.4rem;
+}
+.radiobtn-subcontainer{
+    /* border:1px solid red; */
+    margin-left: 3.6rem;
+    margin-top: 0.6rem;
+    margin-bottom:1rem ;
+}
+
+
+select.custom-select::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* For Firefox */
+  select.custom-select {
+    scrollbar-width: none;
+  }
+  .custom-select{
+    margin-top: 0rem;
+    margin-right: 1rem;
+  }
+  .cvvclasscard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .paybuttondiv{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+  
+.chargesdiv{
+    border :1px solid gray;
+    background-color: rgb(252, 246, 238);
+    color: black;
+    padding: 0.5rem;
+    margin-bottom:1rem;
+    width: 25rem;
+    /* display:flex; */
+}
+.chargesdiv-subcom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chargesdiv-subcom p{
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 0.2rem;
+}
+.chargesdiv-subcom span{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.totalpayment{
+    background-color: white;
+    padding: 0.5rem;
+    border :1px solid gray;
+    width: 25rem;
+}
+.totalpayment p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2.3rem;
+}
